@@ -70,7 +70,6 @@ body {
 .weather h2 {
     font-size: 40px;
     font-weight: 400;
-    /* margin-top: -10px; */
 }
 
 .details {
@@ -87,40 +86,28 @@ body {
 .col {
     display: flex;
     align-items: center;
-    /* Keep text and images aligned horizontally */
     flex-direction: row;
-    /* Ensure image and text are side by side */
     text-align: left;
-    /* Align text next to the images */
 }
 
 .col img {
     width: 50px;
-    /* Adjust image size */
     height: 50px;
-    /* Adjust height to match width */
     margin-right: 10px;
-    /* Space between the image and text */
 }
 
 .humidity,
 .wind {
     font-size: 18px;
-    /* Keep text size readable */
     margin: 5px;
-    /* Remove extra margins */
 }
 
-/* .wind {
-    margin-left: 20px;
-} */
 
 .details {
     display: flex;
     justify-content: space-around;
-    /* Adds space between the columns */
     margin-top: 60px;
-    /* Adjusts overall section spacing */
+    
 }
 .weather{
     display: none;
