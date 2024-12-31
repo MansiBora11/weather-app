@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+.card {
+    width: 90%;
+    height: 590px;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 50px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    /* padding: 20px 20px 10px; */
+    text-align: center;
+    /* height: 250px; */
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 40px;
+    font-weight: 400;
+    /* margin-top: -10px; */
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 50px;
+    column-gap: 50px;
+    /* padding: 0 10px */
+}
+
+
+.col {
+    display: flex;
+    align-items: center;
+    /* Keep text and images aligned horizontally */
+    flex-direction: row;
+    /* Ensure image and text are side by side */
+    text-align: left;
+    /* Align text next to the images */
+}
+
+.col img {
+    width: 50px;
+    /* Adjust image size */
+    height: 50px;
+    /* Adjust height to match width */
+    margin-right: 10px;
+    /* Space between the image and text */
+}
+
+.humidity,
+.wind {
+    font-size: 18px;
+    /* Keep text size readable */
+    margin: 5px;
+    /* Remove extra margins */
+}
+
+/* .wind {
+    margin-left: 20px;
+} */
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    /* Adds space between the columns */
+    margin-top: 60px;
+    /* Adjusts overall section spacing */
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
